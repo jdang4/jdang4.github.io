@@ -1,6 +1,8 @@
-html,
-body {
-    height: 100%;
+html, body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    padding:0;
     /*background-color: #40678f;*/
     /*background-color: #3b5987;*/
     /*background-color: #2e4673;*/
@@ -18,15 +20,39 @@ h1.title-text {
     text-align: center;
 }
 
+hr {
+    margin: 1em 0 2em 0;
+}
+
 .page {
-    margin: 80px auto 300px
+    margin: 80px auto 300px;
 }
 
-#icon {
-    color: black;
+#title-icons {
+    padding-top: 25px;
+    text-align: center;
 }
 
-p.about-text {
+#title-icons {
+    display: block;
+    margin: auto;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+section {
+    display: block;
+    height:100%;
+    width:100%;
+    box-sizing:border-box;
+}
+
+.icon-link {
+    color: inherit;
+}
+
+
+.about-text {
     padding: 1em 0 0 0;
     color: #2e4673;
 }
