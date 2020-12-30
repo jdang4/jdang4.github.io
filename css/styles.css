@@ -6,6 +6,28 @@ body {
     background-color: #2e4673;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    color: white;
+h1.title-text {
+    font-family: 'Lobster', cursive;
+    color: #2e4673;
+    font-size: 5em;
+    text-align: center;
+}
+
+.page {
+    margin: 80px auto 300px
+}
+
+#icon {
+    color: black;
+}
+
+
+/* Desktop view */
+@media only screen and (min-width: 768px) {
+    h1.title-text {
+        font-family: 'Lobster', cursive;
+        color: #2e4673;
+        font-size: 11em;
+        text-align: center;
+    }
 }
