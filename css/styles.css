@@ -3,13 +3,18 @@ body {
     height: 100%;
     /*background-color: #40678f;*/
     /*background-color: #3b5987;*/
-    background-color: #2e4673;
+    /*background-color: #2e4673;*/
+    background-color: #eeeeee;
+}
+
+h1, h2 {
+    color: #2e4673;
 }
 
 h1.title-text {
     font-family: 'Lobster', cursive;
-    color: #2e4673;
     font-size: 5em;
+    color: #2e4673;
     text-align: center;
 }
 
@@ -21,6 +26,15 @@ h1.title-text {
     color: black;
 }
 
+p.about-text {
+    padding: 1em 0 0 0;
+    color: #2e4673;
+}
+
+.about-section {
+    padding: 1em 0 3em 0;
+}
+
 
 /* Desktop view */
 @media only screen and (min-width: 768px) {
@@ -29,5 +43,9 @@ h1.title-text {
         color: #2e4673;
         font-size: 11em;
         text-align: center;
+    }
+
+    .about-section {
+        padding: 1em 0 4em 0;
     }
 }
