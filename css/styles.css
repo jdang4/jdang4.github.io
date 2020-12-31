@@ -1,15 +1,11 @@
-html, body {
-    margin: 0;
-    height:100%;
-    width:100%;
-    padding:0;
+body {
     /*background-color: #40678f;*/
     /*background-color: #3b5987;*/
     /*background-color: #2e4673;*/
     background-color: #eeeeee;
 }
 
-h1, h2 {
+h1, h2, h4, li {
     color: #2e4673;
 }
 
@@ -22,22 +18,24 @@ h1.title-text {
 
 hr {
     margin: 1em 0 2em 0;
+    height: 2px;
+    border: 0px solid #2e4673;
+    border-top-width: 1px;
+}
+
+.fa {
+    display: inline-block;
+    margin: 0 5px 0 5px;
 }
 
 .page {
     margin: 80px auto 300px;
 }
 
-#title-icons {
-    padding-top: 25px;
-    text-align: center;
-}
 
 #title-icons {
     display: block;
     margin: auto;
-    -webkit-animation-delay: 3s;
-    animation-delay: 3s;
 }
 
 section {
@@ -58,7 +56,24 @@ section {
 }
 
 .about-section {
+    margin: 20px;
     padding: 1em 0 3em 0;
+}
+
+#profile-pic {
+    max-width: 60%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#skills-list {
+    list-style-position: outside;
+    padding-left: 1.5em;
 }
 
 
@@ -73,5 +88,13 @@ section {
 
     .about-section {
         padding: 1em 0 4em 0;
+        margin-bottom: 50px;
+    }
+
+    #profile-pic {
+        max-width: 60%;
+        height: auto;
+        margin-top: 50px;
+        float: left;
     }
 }
