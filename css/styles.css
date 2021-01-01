@@ -5,7 +5,7 @@ body {
     background-color: #eeeeee;
 }
 
-h1, h2, h4, li {
+h1, h2, h4, strong {
     color: #2e4673;
 }
 
@@ -21,6 +21,10 @@ hr {
     height: 2px;
     border: 0px solid #2e4673;
     border-top-width: 1px;
+}
+
+#home {
+    margin-bottom: 300px;
 }
 
 .fa {
@@ -52,7 +56,6 @@ section {
 
 .about-text {
     padding: 1em 0 0 0;
-    color: #2e4673;
 }
 
 .about-section {
@@ -76,6 +79,10 @@ section {
     padding-left: 1.5em;
 }
 
+.icon-link:hover {
+    color: #4286f4;
+}
+
 
 /* Desktop view */
 @media only screen and (min-width: 768px) {
@@ -97,4 +104,9 @@ section {
         margin-top: 50px;
         float: left;
     }
+
+    #home {
+        margin-bottom: 50px;
+    }
+    
 }

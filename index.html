@@ -22,7 +22,7 @@
 
 <body style="height: 100%;">
 	<header>
-		<nav class="navbar navbar-inverse">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -43,8 +43,8 @@
 		</nav>
 	</header>
 	<section>
-		<div class="container page" id="home" style="margin-bottom: 50px;">
-			<div class="jumbotron text-center" style="margin-bottom:0">
+		<div class="container page" id="home">
+			<div class="jumbotron text-center" style="margin-bottom: 0; margin-top: 50px;">
 				<h1 class="title-text">Hi, I'm</h1>
 				<h1 class="title-text">Jonathan Dang</h1>
 
@@ -79,18 +79,15 @@
 							I am a senior at Worcester Polytechnic Institute (WPI) majoring in Computer Science
 							with a minor in Data Science. In my time at WPI, I completed my Interactive Qualifying
 							Project (IQP) in Bejing, China in the Summer of 2019, and a Summer internship at Juniper
-							Networks in 2020.
-							These were great experiences that I got the opportunity to do, and now I am currently
-							finishing up
-							my Major Qualifying Project (MQP) at WPI to fullfill my last graduation requriement. Feel
-							free
-							to check the 'Projects' section of this site for more details about them!
+							Networks in 2020. These were great experiences that I got the opportunity to do, and now I 
+							am currently finishing up my Major Qualifying Project (MQP) at WPI to fullfill my last graduation requriement. 
+							Feel free to check the 'Projects' section of this site for more details about them!
 						</p>
 
 						<p class="about-text">
 							For fun, I enjoy listening to music, playing video games with my friends, and playing
 							tennis if I'm not feeling too lazy ¯\_(ツ)_/¯. Fun fact, my favorite emoji is the shrug
-							emoji, and I tend to use it a lot mainly because I just like the design of it so much.
+							emoji, and I tend to use it a lot mainly because I just like the design.
 						</p>
 					</div>
 				</div>
@@ -115,7 +112,7 @@
 							</li>
 							<li clas="list-group-item">
 								<strong>Technologies:</strong>
-								Git, Docker, Django, Flask, React.js, Ajax, Raspberry Pi 
+								Git, Docker, Django, Flask, Android, React.js, Ajax, Raspberry Pi 
 							</li>
 							<li clas="list-group-item">
 								<strong>Others:</strong>
@@ -171,18 +168,82 @@
 						This was my term project for my Software Engineering course where I had to work in a team of 10 to redesign 
 						the COLA Search application, an existing web application that provides users alcohol labeling information. 
 						The goal of this project was to improve the overall user interface and functionality of the "out of date" 
-						application. Essentially, it was to modernize it and go through the software development process.
+						application. Working on this project was my first introduction of going through the software development process.
 					</p>
 					<p>
 						<strong>Technologies/Practices Used:</strong>
 						Java, JavaFX, MongoDB, Agile Methodology, Scrum
 					</p>
 				</div>
+				<div class="container" style="margin-top: 50px;">
+					<h4>Bose AR Instrument</h4>
+					<p>
+						This was my Hackathon project that I worked on in a team of 5. This project was an Android application that 
+						generates drum sounds through the Bose Frame glasses upon detection of a user head movement. The idea was to 
+						play a specific drum sound depending on the direction at which the user's head moved in. In order to have the 
+						Android app be able to communicate with the Bose Frame glasses, the Bose AR SDK was utilized. This project ended 
+						up winning the Bose Award for Best Project that Utilized the Bose AR SDK.
+					</p>
+					<p>
+						<strong>Technologies:</strong>
+						Android, Bose AR SDK
+					</p>
+				</div>
+				<div class="container" style="margin-top: 50px;">
+					<h4>Chat Room</h4>
+					<p>
+						This was a small personal project that I did to help get me familiar with socket programming. This project essentially
+						replicates the main functionality of a chat room application where multiple of users could enter a room and chat with 
+						each other. I implemented the application to allow communication between all connected clients through a TCP connection.
+					</p>
+					<p>
+						<strong>Technologies:</strong>
+						C++
+					</p>
+				</div>
+				<div class="container" style="margin-top: 50px;">
+					<h4>SASE NERC 2020 Website</h4>
+					<p>
+						WPI was selected to host the 2020 SASE NERC conference and I volunteered to be a part of the comittee in charge 
+						of setting up the event. My role within the comittee was the web-master, and I was in charge of designing the website 
+						for the conference. This was a project that I did to help me start learning HTML/CSS, and Javascript. In this project 
+						I was not only introduced to designing a website, but also the process of setting up the domain to host the website. 
+					</p>
+					<p>
+						<strong>Technologies:</strong>
+						HTML/CSS, Javascript (Node.js)
+					</p>
+				</div>
 			</div>
 		</div>
 	</section>
-	<!--Personal Projects Section-->
-	<!--Contact Me Section-->
+	<section>
+		<div class="container page" id="contact">
+			<div class="about-section">
+				<div class="row">
+					<div class="column">
+						<h2>Contact Me</h2>
+						<hr>
+					</div>
+				</div>
+				<div class="text-center" id="title-icons">
+					<div class="row" id="title-icons">
+						<a href="https://github.com/jdang4" target="_blank" class="icon-link">
+							<i class="fa fa-github fa-3x" aria-hidden="true"></i>
+						</a>
+						<a href="https://www.linkedin.com/in/jonathan-dang-237396166/" target="_blank" class="icon-link">
+							<i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+						</a>
+						<a href="mailto:jdang@wpi.edu" class="icon-link">
+							<i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
